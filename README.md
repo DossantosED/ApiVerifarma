@@ -21,9 +21,9 @@ El proyecto esta creado en Laravel 8, dejo los pasos para levantar el mismo:
     - Xampp o similar para levantar la base de datos local
 - Base de datos:
 - Crear de manera local una base de datos MySql con los datos: 
-    -nombre de la base de datos: verifarma
-    -usuario: root
-    -sin contraseña
+    - nombre de la base de datos: verifarma
+    - usuario: root
+    - sin contraseña
 - Comandos para instalar y levantar el proyecto:
     (Iniciar los servicios de MySql previamente creada la base de datos)
     desde una terminal, estando en la carpeta raiz del proyecto lanzar los siguients comandos:
@@ -38,4 +38,4 @@ Para correr los test unitarios debe ejeutar el comando:
 
 ### Documentacion de la API
 
-- **[Documentancion](https://www.getpostman.com/collections/cdcde9290e8b7e90ba39)**
+- **[Documentancion](https://www.postman.com/solar-astronaut-622463/workspace/emanuel-dos-santos/collection/8675144-9c4a219e-a23d-4d0b-8d17-ef7246f7f5ec)**
