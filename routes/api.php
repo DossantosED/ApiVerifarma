@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DisplayController;
+use App\Http\Controllers\FarmaciaController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::post('farmacia', [FarmaciaController::class,'store']);
+Route::get('farmacia/{lat}/{lon}', [FarmaciaController::class,'obtenerFarmaciasCercanas']);
+Route::get('farmacia/{id}', [FarmaciaController::class,'show']);
